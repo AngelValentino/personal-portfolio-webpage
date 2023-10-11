@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+/*NAVIGATION BAR*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 20px 5vw;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.100);
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    padding: 21px;
+    font-size: 1.2rem;
+}
+
+ul a:hover {
+    background-color: aliceblue;
+}
+
+/*WELCOME SECTION*/
+
+#welcome-section {
+    height: 100vh;
+    background-color: rgba(250, 245, 237, 0.800);
+}
+
+.introduction {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.introduction h1, h2 {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 3.5rem;
+}
+
+.introduction h2 {
+    font-size: 2rem;
+    font-style: italic;
+    color: antiquewhite;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.introduction img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.100);
+    cursor: pointer;
+}
+
+/*MEDIA QUERY FOR TABLET*/
+
+@media only screen and (max-width: 700px) {
+    /*NAVIGATION MENU*/
+    
+    ul {
+        justify-content: center;
+    }
+
+    ul a {
+        font-size: 1.2rem;
+    }
+    
+    /*WELCOME SECTION*/
+    .introduction h1 {
+        font-size: 3rem;
+    }
+
+    .introduction h2 {
+        font-size: 1.5rem;
+    }
+
+    .introduction img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/*MEDIA QUERY FOR MOBILE*/
+
+@media only screen and (max-width: 400px) {
+    /*NAVIGATION MENU*/
+    ul a {
+        font-size: 1rem;
+    }
+
+    /*WELCOME SECTION*/
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .introduction h2 {
+        font-size: 1.25rem;
+    }
+    
+    .introduction img {
+        width: 200px;
+        height: 200px;
+    }
+}
