@@ -5,5 +5,7 @@
 ![webpage screenshot](images/webpage-screenshot.jpg)
 
 <br>
+<hr>
+<br>
 
 # Last project from freecodecamp responsive html and css design curriculum
