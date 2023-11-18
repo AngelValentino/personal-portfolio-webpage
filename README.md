@@ -6,4 +6,4 @@
 
 <br>
 
-### Last project from freecodecamp responsive html and css design curriculum
+# Last project from freecodecamp responsive html and css design curriculum
