@@ -336,6 +336,9 @@ footer p {
     }
 }
 
+/*END OF MEDIA QUERY FOR HOVER CAPABLE DEVICES*/
+
+
 /*MEDIA QUERY FOR TABLET*/
 
 @media only screen and (max-width: 700px) {
