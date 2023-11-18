@@ -298,7 +298,7 @@ footer p {
 
 /*MEDIA QUERY FOR HOVER CAPABLE DEVICES*/
 
-@media screen and (hover:hover) {
+@media screen and (hover: hover) {
 /*NAVIGATION BAR*/
 
     ul a:hover {
